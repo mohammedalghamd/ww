@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+@import "../../../../Downloads/Modernize-1.0.0/Modernize-1.0.0/src/assets/scss/variables/variables";
+
+// Import Bootstrap source files (Required file)
+@import "../../../../Downloads/Modernize-1.0.0/Modernize-1.0.0/src/assets/libs/bootstrap/scss/bootstrap";
+
+
+@import "../../../../Downloads/Modernize-1.0.0/Modernize-1.0.0/src/assets/scss/variables/theme-variables";
+
+
+// Scrollbar style (Required file)
+@import "../../../../Downloads/Modernize-1.0.0/Modernize-1.0.0/src/assets/libs/simplebar/dist/simplebar.css";
+
+// Tabler Icons style
+@import "../css/icons/tabler-icons/tabler-icons.css";
+
+
+// Theme Layouts style (Required file)
+@import "../../../../Downloads/Modernize-1.0.0/Modernize-1.0.0/src/assets/scss/layouts/sidebar";
+@import "../../../../Downloads/Modernize-1.0.0/Modernize-1.0.0/src/assets/scss/layouts/header";
+@import "../../../../Downloads/Modernize-1.0.0/Modernize-1.0.0/src/assets/scss/layouts/layouts";
+
+// Component style (Required file)
+
+@import "../../../../Downloads/Modernize-1.0.0/Modernize-1.0.0/src/assets/scss/component/reboot";
+@import "../../../../Downloads/Modernize-1.0.0/Modernize-1.0.0/src/assets/scss/component/card";
+
+// Utilities style (Required file)
+@import "../../../../Downloads/Modernize-1.0.0/Modernize-1.0.0/src/assets/scss/utilities/icon-size";
+@import "../../../../Downloads/Modernize-1.0.0/Modernize-1.0.0/src/assets/scss/utilities/background";
+
+
+// Pages style (Required file)
+@import "../../../../Downloads/Modernize-1.0.0/Modernize-1.0.0/src/assets/scss/pages/dashboard1";

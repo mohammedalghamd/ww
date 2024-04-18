@@ -1,0 +1,114 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+  <head>
+       <div class="container-xxl position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="m-0"><i class="fa fa-search me-2"></i>Smart<span class="fs-5">Canteen</span></h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">Login</a>
+                        <a href="service.html" class="nav-item nav-link">About our app</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact us</a>
+
+                    </div>
+                </div>
+            </nav>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'icomoon/style.css'  %}
+">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/we.css'  %}">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="{% static 'css/asd.css'  %}">
+
+    <title>Contact Us </title>
+  </head>
+  <body>
+  
+
+  <div class="content">
+    
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          
+
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              
+              <h3 class="heading mb-4">Share your opinion with us</h3>
+            
+
+              <p><img src="{% static 'img/undraw-contact.svg'  %}" alt="Image" class="img-fluid"></p>
+
+
+            </div>
+            <div class="col-md-6">
+              
+              <form class="mb-5" method="post" id="contactForm" name="contactForm">
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 form-group">
+                    <textarea class="form-control" name="message" id="message" cols="30" rows="7" placeholder="Write your message"></textarea>
+                  </div>
+                </div>  
+                <div class="row">
+                  <div class="col-12">
+                    <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
+                  <span class="submitting"></span>
+                  </div>
+                </div>
+              </form>
+
+              <div id="form-message-warning mt-4"></div> 
+              <div id="form-message-success">
+                Your message was sent, thank you!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+    
+    
+
+    <script src="{% static 'js/jquery-3.3.1.min.js'  %}"></script>
+    <script src="{% static 'js/popper.min.js'  %}"></script>
+    <script src="{% static 'js/bootstrap.min.js'  %}"></script>
+    <script src="{% static 'js/jquery.validate.min.js'  %}"></script>
+    <script src="{% static 'js/12.js'  %}"></script>
+
+  </body>
+</html>
